@@ -17,7 +17,7 @@ from playsound import playsound
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
-    print("Currently available songs are : Sunny Sunny,diamond,dil wali gal, daru badnam,hindi song. ")
+    print("Currently available songs are : Diamond, Agar Tum Saath Ho, Tum Hi Aana, Tera Ban Jaunga")
     print("which song you wanna listen:")
     audio = r.listen(source)
 
